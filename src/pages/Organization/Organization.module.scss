@@ -1,0 +1,28 @@
+.wrapper {
+  position: relative;
+  width: 620px;
+  height: 840px;
+  background-color: var(--white-color);
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  padding-top: 50px;
+}
+
+.text {
+  font-family: var(--font-family);
+  font-size: medium;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+.form {
+  left: 0;
+  display: block;
+  width: 340px;
+  margin: 0 auto;
+}

@@ -1,0 +1,28 @@
+.wrapper {
+  display: block;
+  width: 100%;
+  //   text-align: center;
+  //   margin: 0 auto;
+}
+
+.org {
+  padding-bottom: 10px;
+}
+.org input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(190, 190, 190, 0.5);
+  &::placeholder {
+    font-family: var(--font-family);
+  }
+}
+
+.org .options {
+  width: 100%;
+}
+
+.org .textarea {
+  width: 100%;
+}

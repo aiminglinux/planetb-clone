@@ -3,3 +3,4 @@ export { default as icon2 } from "./icon2.svg";
 export { default as icon3 } from "./icon3.svg";
 export { default as icon4 } from "./icon4.svg";
 export { default as logo } from "./logo.svg";
+export { default as downicon } from "./fas.fa-caret-down.svg";
