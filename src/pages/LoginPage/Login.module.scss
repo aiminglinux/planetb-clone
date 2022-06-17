@@ -1,0 +1,22 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  background-color: #ffffff;
+  width: 1240px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(190, 190, 190, 0.5);
+    left: 50%;
+  }
+  > div {
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
+}
